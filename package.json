@@ -1,0 +1,31 @@
+{
+  "name": "uget",
+  "version": "1.0.0-1",
+  "description": "Isomorphic JSON API helper on top of the Fetch API.",
+  "license": "MIT",
+  "browser": "./dist/browser.js",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "babel lib --out-dir dist",
+    "prepublish": "npm run build"
+  },
+  "keyworks": [
+    "fetch",
+    "ajax",
+    "api",
+    "json"
+  ],
+  "author": "Sean Genabe <seangenabe@outlook.com>",
+  "repository": "seangenabe/uget",
+  "engines": {
+    "node": ">=4"
+  },
+  "dependencies": {
+    "global": "^4.3.1",
+    "node-fetch": "^1.6.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-plugin-transform-async-to-generator": "^6.16.0"
+  }
+}
