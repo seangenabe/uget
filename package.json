@@ -1,6 +1,6 @@
 {
   "name": "uget",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Isomorphic JSON API helper on top of the Fetch API.",
   "license": "MIT",
   "browser": "./dist/browser.js",
