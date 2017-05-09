@@ -1,5 +1,7 @@
 # uget
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/seangenabe/uget.svg)](https://greenkeeper.io/)
+
 Isomorphic JSON API helper on top of the Fetch API.
 
 ## Usage
