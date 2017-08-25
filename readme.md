@@ -45,3 +45,5 @@ A `Promise` that resolves with a value or rejects with an `Error`:
 * Parses the response body as text
   * If the response body is empty, returns `undefined`.
   * Parses the response body text as JSON and returns it.
+
+If the response is not OK and has a plaintext body, the error object will additionally have the `payload` property containing the response body. Furthermore, if it's valid JSON, the `payloadJson` property will be set containing the JSON object. Thirdly, if a `message` property was found, the `payloadJsonDetail` property will be set containing its value.
